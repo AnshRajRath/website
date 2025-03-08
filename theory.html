@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theory | AI-Powered Waste Segregation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <aside id="sidebar">
+        <ul>
+            <li><a href="home.html">🏠 Home</a></li>
+            <li><a href="introduction.html">📖 Introduction</a></li>
+            <li><a href="theory.html" class="active">⚙️ Theory</a></li>
+            <li><a href="examples.html">🔍 Examples</a></li>
+            <li><a href="conclusion.html">🎯 Conclusion</a></li>
+        </ul>
+    </aside>
+
+    <div class="main-content">
+        <header>
+            <h1>⚙️ Robotics & AI Theory</h1>
+        </header>
+        <main>
+            <section>
+                <h2>🔩 SCARA Robot Kinematics & Control</h2>
+                <p>The SCARA (Selective Compliance Assembly Robot Arm) robot is designed for <b>fast and precise</b> 
+                assembly line tasks. It features two <b>rotating joints</b>, making it well-suited for waste sorting applications.</p>
+                <ul>
+                    <li><b>Forward Kinematics:</b> Determines the position of the robotic arm’s end-effector.</li>
+                    <li><b>Inverse Kinematics:</b> Calculates joint angles to reach a specific point.</li>
+                    <li><b>Trajectory Planning:</b> Ensures smooth movement while avoiding obstacles.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>📊 Hybrid Optimization for Trajectory Planning</h2>
+                <p>The SCARA robot's movement is optimized using a <b>Hybrid Genetic Algorithm (GA) and L-BFGS-B</b> approach:</p>
+                <ul>
+                    <li><b>Genetic Algorithm (GA):</b> Conducts a global search for optimal trajectories.</li>
+                    <li><b>L-BFGS-B:</b> Fine-tunes movements to enhance precision.</li>
+                    <li><b>Singularity Avoidance:</b> Uses Jacobian matrix analysis to prevent unstable positions.</li>
+                    <li><b>Adaptive Mutation Strategies:</b> Inspired by simulated annealing to escape local minima.</li>
+                </ul>
+                <p><b>Results:</b> This hybrid approach improves convergence speed by <b>80%</b> and reduces computational overhead.</p>
+            </section>
+
+            <section>
+                <h2>🖼️ AI-Based Waste Classification & Image Processing</h2>
+                <p>Our system uses <b>Google Gemini AI</b> to analyze waste images and classify them based on:</p>
+                <ul>
+                    <li><b>Material Composition:</b> Identifies plastic, metal, paper, etc.</li>
+                    <li><b>Texture and Color Features:</b> Helps distinguish between similar objects.</li>
+                    <li><b>Contextual Clues:</b> Improves classification accuracy.</li>
+                </ul>
+                <p>With an accuracy of <b>98.6%</b>, this AI-driven classification significantly outperforms traditional waste sorting methods.</p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Group 7 | AI Waste Management.</p>
+        </footer>
+    </div>
+</body>
+</html>
